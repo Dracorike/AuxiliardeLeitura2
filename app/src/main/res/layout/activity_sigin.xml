@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitys.SiginActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="86dp"
+        android:layout_gravity="center"
+        android:text="Signing"
+        android:textSize="36sp"
+        android:textColor="@color/blackForText"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="@dimen/widthEditText"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:layout_width="@dimen/widthEditText"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:hint="confirme seu email"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:layout_width="@dimen/widthEditText"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:hint="senha"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:layout_width="@dimen/widthEditText"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:hint="confirme a sua senha"
+        android:layout_gravity="center"
+        />
+</LinearLayout>
